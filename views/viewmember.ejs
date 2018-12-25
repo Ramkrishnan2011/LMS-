@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>sdfsdf</title>
+    <!-- <link rel='stylesheet' href='/stylesheets/style.css' /> -->
+  </head>
+  <body>
+    
+    <h1>viewbook</h1>
+    
+    <table>
+            <tr><th>Membername</th>
+                <th>Memberid</th>
+                
+                </tr>
+                <%for(var i=0;i < data.length;i++){%>
+                    <tr>
+                        <td><%= data[i].mname %></td>
+                        <td><%= data[i].mid %></td>
+                        
+                    
+                    </tr>
+                    <%}%>
+             
+        </table>
+        </form>
+  </body>
+</html>

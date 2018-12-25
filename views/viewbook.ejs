@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>sdfsdf</title>
+    <!-- <link rel='stylesheet' href='/stylesheets/style.css' /> -->
+  </head>
+  <body>
+    
+    <h1>viewbook</h1>
+    
+    <table>
+            <tr><th>bookname</th>
+                <th>bookid</th>
+                <th>author</th>
+                <th>copies</th>
+                </tr>
+                <%for(var i=0;i < data.length;i++){%>
+                    <tr>
+                        <td><%= data[i].bookname %></td>
+                        <td><%= data[i].bookid %></td>
+                        <td><%= data[i].author %></td>
+                        <td><%= data[i].noc %></td>
+                    
+                    </tr>
+                    <%}%>
+             
+        </table>
+        </form>
+  </body>
+</html>
